@@ -15,6 +15,7 @@ import InventoryManager from "./components/listers/InventoryCards"
 import InventoryDetail from "./components/listers/InventoryDetail"
 
 
+
 export default new Router({
     // mode: 'history',
     base: process.env.BASE_URL,
@@ -51,6 +52,7 @@ export default new Router({
                 name: 'InventoryDetail',
                 component: InventoryDetail
             },
+
 
 
 
